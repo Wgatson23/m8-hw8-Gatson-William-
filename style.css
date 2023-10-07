@@ -156,7 +156,7 @@ footer {
 	35% {
 		transform: rotateZ(-4deg);
 	}
-	40%,
+	50%,
 	100% {
 		transform: rotateZ(0);
 	}
@@ -171,16 +171,17 @@ button:hover {
 }
 
 .para {
-	animation: rainbow 4s linear infinite;
+	animation: rainbow 2s linear infinite;
 	font-size: 1.6rem;
-	color: red;
+	font-weight: bold;
+    color: red;
 }
 
 .para:hover {
 	--color-1: #fa4616;
 	--color-2: #263a95;
 	--color-3: hotpink;
-    --color-4: #fdd219;
+	--color-4: #fdd219;
 }
 
 @keyframes rainbow {
