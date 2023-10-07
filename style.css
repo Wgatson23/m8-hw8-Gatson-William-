@@ -166,22 +166,21 @@ button {
 	transition: all 1.5s ease-in-out;
 }
 button:hover {
-	background-color: transparent;
 	transform: rotate(360deg);
 }
 
 .para {
-	animation: rainbow 2s linear infinite;
-	font-size: 1.6rem;
+	animation: rainbow 2s infinite linear;
 	font-weight: bold;
     color: red;
 }
 
-.para:hover {
+.para:hover{
 	--color-1: #fa4616;
 	--color-2: #263a95;
 	--color-3: hotpink;
 	--color-4: #fdd219;
+	--color-5: #046a38;
 }
 
 @keyframes rainbow {
@@ -189,7 +188,7 @@ button:hover {
 		color: var(--color-1);
 	}
 	32% {
-		color: var(--color-1);
+		color: var(--color-5);
 	}
 	33% {
 		color: var(--color-2);
@@ -204,6 +203,6 @@ button:hover {
 		color: var(--color-4);
 	}
 	100% {
-		color: var(--color-1);
+		color: var(--color-5);
 	}
 }
