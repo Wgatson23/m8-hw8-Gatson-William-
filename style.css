@@ -169,13 +169,12 @@ button:hover {
 	transform: rotate(360deg);
 }
 
-.para {
+a {
 	animation: rainbow 2s infinite linear;
 	font-weight: bold;
-    color: red;
 }
 
-.para:hover{
+a:hover{
 	--color-1: #fa4616;
 	--color-2: #263a95;
 	--color-3: hotpink;
